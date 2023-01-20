@@ -1,10 +1,10 @@
 # React-Interview Prep
 
-- This is Front-End Development Exercise which will consist of data retrieval and displaying theat data!
+- This is Front-End Development Exercise which will consist of data retrieval and displaying that data!
 
 ## Getting Started
 
-- Choose the following Rront-End templates on StackBlitz to get started: https://stackblitz.com/
+- Choose the following Front-End templates on StackBlitz to get started: https://stackblitz.com/
 
 ## Notes
 
@@ -39,12 +39,12 @@
 - [Dog Breed List](https://dog.ceo/dog-api/breeds-list)
 
 ## Examples
-![Example Images]()
-[Working Example](https://react-kx22nd.stackblitz.io/)
-[Working Example Code ⚡️](https://stackblitz.com/edit/react-kx22nd)
+
+- ![Example Images]()
+- [Working Example](https://react-kx22nd.stackblitz.io/)
+- [Working Example Code ⚡️](https://stackblitz.com/edit/react-kx22nd)
 
 ## Axios Error on StackBlitz
 
 - I ran into multiple errors with latest axios version on StackBlitz platform, I used a previous version with this command: npm install axios@0.26.1
 - Dont need to use axios!
-
