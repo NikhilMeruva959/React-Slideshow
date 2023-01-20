@@ -6,6 +6,12 @@
 
 - Choose the following Rront-End templates on StackBlitz to get started: https://stackblitz.com/
 
+## Notes
+
+- You are free to look up any documentation you may need
+- You are free to use third party utility libraries
+- Please do not use a pre-built package or other existing code for a carousel or slider.
+
 ## Objectives
 
 1. Create the search bar at the top of the page
@@ -32,9 +38,13 @@
 - [API Docs](https://dog.ceo/dog-api/documentation/breed)
 - [Dog Breed List](https://dog.ceo/dog-api/breeds-list)
 
+## Examples
+![Example Images]()
+[Working Example](https://react-kx22nd.stackblitz.io/)
+[Working Example Code ⚡️](https://stackblitz.com/edit/react-kx22nd)
+
 ## Axios Error on StackBlitz
 
 - I ran into multiple errors with latest axios version on StackBlitz platform, I used a previous version with this command: npm install axios@0.26.1
 - Dont need to use axios!
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-kx22nd)
