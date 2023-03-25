@@ -14,16 +14,29 @@ export default function ImageCarousel(props) {
   }, [props.images]);
 
   function goBack() {
-    if (startingIndex === 0) setStartingIndex(props.images.length - 1);
-    else setStartingIndex(startingIndex - 1);
+    if (currImg === undefined) {
+      console.log('Need to input Dog Breed');
+    } else if (startingIndex === 0) {
+      setStartingIndex(props.images.length - 1);
+      setCurrImg(currImg[startingIndex]);
+    } else {
+      setStartingIndex(startingIndex - 1);
+      setCurrImg(currImg[startingIndex]);
+    }
     console.log(startingIndex);
-    setCurrImg(currImg[startingIndex]);
+    // setCurrImg(currImg[startingIndex]);
   }
   function goFoward() {
-    if (startingIndex === props.images.length - 1) setStartingIndex(0);
-    else setStartingIndex(startingIndex + 1);
+    if (currImg === undefined) {
+      console.log('Need to input Dog Breed');
+    } else if (startingIndex === props.images.length - 1) {
+      setStartingIndex(0);
+      setCurrImg(currImg[startingIndex]);
+    } else {
+      setStartingIndex(startingIndex + 1);
+      setCurrImg(currImg[startingIndex]);
+    }
     console.log(startingIndex);
-    setCurrImg(currImg[startingIndex]);
   }
 
   // function goBack() {
